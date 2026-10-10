@@ -1,0 +1,57 @@
+# Afrodisiace fără frontiere
+
+Compendiu cultural și botanic despre 22 de alimente și plante asociate tradițional cu dorința, cu nivelul de dovezi marcat la fiecare intrare. Un singur fișier HTML, offline.
+
+**Live:** https://chiuta.github.io/Afrodisiace-fara-frontiere/
+
+![Captura de ecran](screenshot.png)
+
+## Ce este
+
+Un ghid educațional și cultural: 22 de intrări (10 pentru amândoi, 6 pentru bărbați, 6 pentru femei), fiecare cu o scurtă poveste/tradiție și un sigiliu al nivelului de dovezi: „Tradiție”, „Preliminar” sau „Unele studii”. Niciun nivel nu înseamnă „dovedit eficient”. Nu este sfat medical.
+
+## Funcții
+
+- Listă de 22 intrări, filtrabilă pe public (Toate / Pentru amândoi / Pentru bărbați / Pentru femei).
+- Căutare în nume și descrieri, fără sensibilitate la diacritice sau majuscule (ex.: „sofran” găsește „Șofranul”).
+- Secțiuni „Cum funcționează, de fapt?” (mecanisme invocate, cu rezerve) și „Dincolo de alimente” (somn, mișcare, stres, alcool, relație).
+- „Generator de seară romantică”: alege 3 intrări aleatoriu (amestec Fisher–Yates) ca idei culinare, nu ca tratament.
+- Notă de avertizare vizibilă deasupra listei și notă detaliată la final (interacțiuni cu medicamente, sarcină, cauze medicale).
+
+## Manual de utilizare
+
+1. Citește nota „Educațional, nu sfat medical” de deasupra listei.
+2. Alege publicul cu butoanele de filtrare sau scrie în căsuța de căutare.
+3. Citește sigiliul fiecărei intrări (legenda e deasupra listei) și textul ei.
+4. Opțional: apasă „Surprinde-mă” pentru trei idei aleatorii.
+5. Înainte de a lua orice supliment, citește „Notă importantă” și discută cu medicul sau farmacistul.
+
+## Confidențialitate și rețea
+
+- Nu folosește `localStorage`, `sessionStorage`, IndexedDB sau cookie-uri.
+- Nu face apeluri de rețea și nu încarcă resurse externe; nu conține linkuri externe. Politica CSP din pagină interzice conexiunile externe.
+- Nu cere permisiuni de browser.
+
+## Limite și avertismente
+
+- **Conținut educațional și cultural, nu sfat medical.** Descrie tradiții și credințe; nu există dovezi științifice solide că vreun aliment sau plantă din listă tratează probleme de dorință sau de funcție sexuală.
+- Nu amâna consultul medical și nu înlocui un tratament prescris. Probleme persistente sau apărute brusc pot avea cauze medicale.
+- Suplimentele din plante pot interacționa cu medicamente și nu sunt controlate ca medicamentele; evită-le în sarcină/alăptare fără aviz medical.
+- Textele sunt rezumate editoriale scrise de autor; afirmațiile despre studii sunt generale, fără trimiteri bibliografice, și nu au fost verificate sistematic pe surse primare în acest repository.
+- Ghidul se adresează adulților.
+
+## Rulare locală / offline
+
+Descarcă `index.html` și deschide-l în browser; nu are nevoie de internet.
+
+## Licență
+
+Licența nu este încă declarată.
+
+## Autor
+
+Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
+
+## English summary
+
+A single-file, offline Romanian-language compendium of 22 foods and herbs traditionally associated with desire. Each entry carries an evidence badge (tradition / preliminary / some small studies); none is presented as proven. Search ignores diacritics, the random picker uses a Fisher–Yates shuffle, and a medical-disclaimer banner is shown above the list. No storage, no network calls, no external resources. Educational only, not medical advice. Licence not yet declared.

@@ -15,6 +15,8 @@ Un ghid educațional și cultural: 22 de intrări (10 pentru amândoi, 6 pentru 
 ## Funcții
 
 - Listă de 22 intrări, filtrabilă pe public (Toate / Pentru amândoi / Pentru bărbați / Pentru femei).
+- Filtru suplimentar după nivelul de dovezi (Tradiție / Preliminar / Unele studii), combinabil cu publicul și căutarea; buton „Resetează filtrele” când nu există rezultate; tasta `/` mută cursorul în căutare.
+- Temă întunecată automată (`prefers-color-scheme: dark`) și stil de tipărire (fără comenzi și generator).
 - Căutare în nume și descrieri, fără sensibilitate la diacritice sau majuscule (ex.: „sofran” găsește „Șofranul”).
 - Secțiuni „Cum funcționează, de fapt?” (mecanisme invocate, cu rezerve) și „Dincolo de alimente” (somn, mișcare, stres, alcool, relație).
 - „Generator de seară romantică”: alege 3 intrări aleatoriu (amestec Fisher–Yates) ca idei culinare, nu ca tratament.
@@ -31,7 +33,7 @@ Un ghid educațional și cultural: 22 de intrări (10 pentru amândoi, 6 pentru 
 ## Confidențialitate și rețea
 
 - Nu folosește `localStorage`, `sessionStorage`, IndexedDB sau cookie-uri.
-- Nu face apeluri de rețea și nu încarcă resurse externe; nu conține linkuri externe. Politica CSP din pagină interzice conexiunile externe.
+- Nu face apeluri de rețea și nu încarcă resurse externe; nu conține linkuri externe. Politica CSP din pagină interzice conexiunile externe și permite doar scriptul propriu, pe hash (fără `'unsafe-inline'` pentru script).
 - Nu cere permisiuni de browser.
 
 ## Limite și avertismente
@@ -60,4 +62,5 @@ A single-file, offline Romanian-language compendium of 22 foods and herbs tradit
 
 ## Istoric / Changelog
 
+- **11 octombrie 2026** — filtru după nivelul de dovezi, „Resetează filtrele”, scurtătura `/`, temă întunecată, stil de tipărire; CSP cu hash de script în loc de `'unsafe-inline'`. Nu s-a adăugat conținut medical nou; textele intrărilor sunt neschimbate.
 - **11 octombrie 2026** — ordinea titlurilor corectată (a apărut un `h2` ascuns vizual „Alimente și plante” înaintea cardurilor, iar subtitlurile „Cum funcționează, de fapt?” sunt `h3` în loc de `h4`, fără schimbare vizibilă); axe-core: 0 violări la 1280×800 și 360×740; verificat că filtrul de căutare funcționează. Conținutul (nivelurile de dovezi) nu a fost modificat; aplicația nu are număr de versiune.

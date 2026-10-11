@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#5C1A2E">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-3OXAtpqierMCakPLilAFeYbGvWyCe8QbfplmtczEcF4='; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="Compendiu cultural și botanic despre alimente și plante asociate tradițional cu dorința, cu nivelul de dovezi marcat la fiecare intrare. Scop educațional, nu sfat medical. Un singur fișier HTML, offline.">
 <meta property="og:title" content="Afrodisiace fără frontiere">
@@ -283,6 +284,44 @@
 
   .empty { grid-column: 1/-1; text-align: center; padding: 50px 0; color: var(--ink-soft); font-style: italic; }
 
+  .evid { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 14px 0 0; }
+  .evid .lbl { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; font-size: 0.74rem; color: var(--ink-soft); letter-spacing: 0.03em; margin-right: 2px; }
+  .evid .tab-btn { padding: 5px 13px; font-size: 0.7rem; }
+  .empty button { display: block; margin: 14px auto 0; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; border: 1.5px solid var(--wine); background: transparent; color: var(--wine); padding: 8px 18px; border-radius: 999px; font-size: 0.76rem; font-weight: 600; cursor: pointer; font-style: normal; }
+  .empty button:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 3px; }
+
+  @media (prefers-color-scheme: dark) {
+    :root { --paper:#18110f; --paper-deep:#251a1d; --ink:#f0e6d8; --ink-soft:#cdbfae; --gold-text:#e3c68a; --wine-deep:#f1dcc0;
+      --tier-traditie:#d3b88f; --tier-promitator:#e6bb62; --tier-sustinut:#93c79e; color-scheme: dark; }
+    .hero { background: linear-gradient(155deg, #5C1A2E 0%, #3D0F1E 100%); color: #F6EEE0; }
+    .hero h1 { color: #F6EEE0; }
+    .tab-btn, .empty button { border-color: #e3c68a; color: #e3c68a; }
+    .tab-btn:hover { background: rgba(227,198,138,0.14); }
+    .tab-btn.active { background: #e3c68a; color: #2a1015; }
+    #search { background: #251a1d; color: var(--ink); border-color: rgba(227,198,138,0.45); }
+    #search::placeholder { color: #bcad9c; }
+    .notice-top { background: #251a1d; color: var(--ink); border-color: #c86a80; }
+    .notice-top a { color: #f0a8b8; }
+    .generator-section { background: #5C1A2E; color: #F6EEE0; }
+    .generator-section .section-title { color: #F6EEE0; }
+    .pick { background: #F6EEE0; color: #2A1B12; }
+    .generate-btn { color: #3D0F1E; }
+    .stamp { background: var(--paper-deep); }
+  }
+
+  @media print {
+    body { background: #fff; color: #000; }
+    .hero { background: none; color: #000; padding: 0 0 12px; }
+    .hero h1, .hero .subtitle, .eyebrow, .flourish { color: #000; }
+    .label-plate { border-color: #000; padding: 14px 20px; }
+    .controls, .evid, .generator-section, .count-label { display: none !important; }
+    .intro-card { margin: 0 0 16px; box-shadow: none; }
+    .card { box-shadow: none; background: #fff; border-color: #666; break-inside: avoid; }
+    .stamp { background: #fff; color: #000; }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .info-section, .disclaimer { break-inside: avoid; }
+  }
+
   @media (max-width: 640px) {
     .hero { padding: 46px 16px 54px; }
     .label-plate { padding: 26px 20px; }
@@ -329,6 +368,13 @@
       <label for="search" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">Caută în listă</label>
       <input type="search" id="search" autocomplete="off" aria-controls="grid" placeholder="Caută (ex: zinc, ghimbir, ciocolata)…">
     </div>
+  </div>
+  <div class="evid" role="group" aria-label="Filtrează după nivelul de dovezi">
+    <span class="lbl" aria-hidden="true">Nivel de dovezi:</span>
+    <button type="button" class="tab-btn active" data-ev="toate" aria-pressed="true" aria-controls="grid">Toate</button>
+    <button type="button" class="tab-btn" data-ev="traditie" aria-pressed="false" aria-controls="grid">Tradiție</button>
+    <button type="button" class="tab-btn" data-ev="promitator" aria-pressed="false" aria-controls="grid">Preliminar</button>
+    <button type="button" class="tab-btn" data-ev="sustinut" aria-pressed="false" aria-controls="grid">Unele studii</button>
   </div>
 
   <p class="count-label" id="count-label" role="status" aria-live="polite"></p>
@@ -466,6 +512,7 @@
 
   let activeTab = 'toate';
   let searchTerm = '';
+  let activeEv = 'toate';
 
   function norm(s) {
     return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -480,6 +527,10 @@
     if (activeTab === 'toate') return true;
     if (activeTab === 'comun') return item.category === 'comun';
     return item.category === activeTab || item.category === 'comun';
+  }
+
+  function matchesEv(item) {
+    return activeEv === 'toate' || item.evidence === activeEv;
   }
 
   function matchesSearch(item) {
@@ -507,11 +558,12 @@
 
   function render() {
     const grid = document.getElementById('grid');
-    const filtered = items.filter(function (i) { return matchesTab(i) && matchesSearch(i); });
+    const filtered = items.filter(function (i) { return matchesTab(i) && matchesEv(i) && matchesSearch(i); });
     document.getElementById('count-label').textContent = countText(filtered.length);
 
     if (filtered.length === 0) {
-      grid.innerHTML = '<p class="empty">Niciun rezultat găsit. Încearcă alt termen de căutare.</p>';
+      grid.innerHTML = '<p class="empty">Niciun rezultat găsit. Încearcă alt termen de căutare.<button type="button" id="reset-filters">Resetează filtrele</button></p>';
+      document.getElementById('reset-filters').addEventListener('click', resetFilters);
       return;
     }
 
@@ -525,14 +577,44 @@
     }).join('');
   }
 
-  document.querySelectorAll('.tab-btn').forEach(function (btn) {
+  function setPressed(sel, attr, val) {
+    document.querySelectorAll(sel).forEach(function (b) {
+      const on = b.dataset[attr] === val;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+
+  document.querySelectorAll('.tab-btn[data-tab]').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      document.querySelectorAll('.tab-btn').forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
-      btn.classList.add('active');
-      btn.setAttribute('aria-pressed', 'true');
       activeTab = btn.dataset.tab;
+      setPressed('.tab-btn[data-tab]', 'tab', activeTab);
       render();
     });
+  });
+
+  document.querySelectorAll('.tab-btn[data-ev]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      activeEv = btn.dataset.ev;
+      setPressed('.tab-btn[data-ev]', 'ev', activeEv);
+      render();
+    });
+  });
+
+  function resetFilters() {
+    activeTab = 'toate'; activeEv = 'toate'; searchTerm = '';
+    document.getElementById('search').value = '';
+    setPressed('.tab-btn[data-tab]', 'tab', 'toate');
+    setPressed('.tab-btn[data-ev]', 'ev', 'toate');
+    render();
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+    const tn = e.target && e.target.tagName;
+    if (tn === 'INPUT' || tn === 'TEXTAREA' || tn === 'SELECT') return;
+    e.preventDefault();
+    document.getElementById('search').focus();
   });
 
   document.getElementById('search').addEventListener('input', function (e) {

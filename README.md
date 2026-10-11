@@ -2,6 +2,8 @@
 
 Compendiu cultural și botanic despre 22 de alimente și plante asociate tradițional cu dorința, cu nivelul de dovezi marcat la fiecare intrare. Un singur fișier HTML, offline.
 
+**Ultima actualizare:** 11 octombrie 2026
+
 **Live:** https://chiuta.github.io/Afrodisiace-fara-frontiere/
 
 ![Captura de ecran](screenshot.png)
@@ -55,3 +57,7 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 ## English summary
 
 A single-file, offline Romanian-language compendium of 22 foods and herbs traditionally associated with desire. Each entry carries an evidence badge (tradition / preliminary / some small studies); none is presented as proven. Search ignores diacritics, the random picker uses a Fisher–Yates shuffle, and a medical-disclaimer banner is shown above the list. No storage, no network calls, no external resources. Educational only, not medical advice. Licence not yet declared.
+
+## Istoric / Changelog
+
+- **11 octombrie 2026** — ordinea titlurilor corectată (a apărut un `h2` ascuns vizual „Alimente și plante” înaintea cardurilor, iar subtitlurile „Cum funcționează, de fapt?” sunt `h3` în loc de `h4`, fără schimbare vizibilă); axe-core: 0 violări la 1280×800 și 360×740; verificat că filtrul de căutare funcționează. Conținutul (nivelurile de dovezi) nu a fost modificat; aplicația nu are număr de versiune.

@@ -220,7 +220,8 @@
   .mechanism-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px,1fr)); gap: 18px; }
   .mechanism-item { background: var(--paper-deep); border-left: 3px solid var(--gold); padding: 18px 20px; }
   .mechanism-item .icon { font-size: 1.4rem; display: block; margin-bottom: 8px; }
-  .mechanism-item h4 {
+  .sr-only-h{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  .mechanism-item h3 {
     font-size: 0.98rem; margin: 0 0 6px;
     font-family: 'Iowan Old Style', Palatino, Georgia, serif;
     color: var(--wine-deep); font-weight: 700;
@@ -338,6 +339,7 @@
     <small>Niciun nivel nu înseamnă „dovedit eficient”: nici la „Unele studii” nu există dovezi puternice.</small>
   </p>
 
+  <h2 class="sr-only-h">Alimente și plante</h2>
   <div class="grid" id="grid"></div>
   <noscript><p>Lista are nevoie de JavaScript pentru a se afișa.</p></noscript>
 
@@ -347,27 +349,27 @@
     <div class="mechanism-grid">
       <div class="mechanism-item">
         <span class="icon">🩸</span>
-        <h4>Vasodilatatoare naturale</h4>
+        <h3>Vasodilatatoare naturale</h3>
         <p>Compuși care ar putea susține circulația sanguină (ghimbir, usturoi, pepene roșu). Se invocă uneori o cale înrudită cu cea a tratamentelor pentru disfuncția erectilă, dar efectul asupra dorinței sau erecției, în cantitățile din alimentație, nu este demonstrat.</p>
       </div>
       <div class="mechanism-item">
         <span class="icon">⚗️</span>
-        <h4>Precursori hormonali</h4>
+        <h3>Precursori hormonali</h3>
         <p>Minerale precum zincul și seleniul (stridii, semințe, nuci) sunt necesare organismului, inclusiv pentru funcția hormonală. Lipsa lor poate afecta sănătatea, dar un aport mai mare la o persoană fără deficit nu are un efect afrodisiac dovedit.</p>
       </div>
       <div class="mechanism-item">
         <span class="icon">🧠</span>
-        <h4>Neurotransmițători ai plăcerii</h4>
+        <h3>Neurotransmițători ai plăcerii</h3>
         <p>Se spune că unii compuși influențează dopamina și serotonina, substanțe ale creierului asociate cu plăcerea și buna dispoziție (ciocolată, vanilie). Cantitățile din alimente sunt mici, iar efectul asupra dorinței nu este demonstrat.</p>
       </div>
       <div class="mechanism-item">
         <span class="icon">🌿</span>
-        <h4>Adaptogeni anti-stres</h4>
+        <h3>Adaptogeni anti-stres</h3>
         <p>Unele plante (ashwagandha, ginseng, maca) sunt numite „adaptogeni”; studii mici sugerează, pentru ashwagandha, o scădere a cortizolului, dar termenul nu este o categorie farmacologică acceptată. Stresul cronic este, în schimb, un factor bine cunoscut care poate scădea libidoul.</p>
       </div>
       <div class="mechanism-item">
         <span class="icon">💭</span>
-        <h4>Efectul ritualic și psihologic</h4>
+        <h3>Efectul ritualic și psihologic</h3>
         <p>Probabil cel mai important „ingredient": pregătirea și savurarea împreună a unei mese asociate cultural cu iubirea creează conexiune și așteptări pozitive, indiferent de compușii din farfurie (efect de tip placebo/context, nu o proprietate a alimentului).</p>
       </div>
     </div>

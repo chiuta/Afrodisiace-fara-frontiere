@@ -2,7 +2,7 @@
 
 Compendiu cultural și botanic despre 22 de alimente și plante asociate tradițional cu dorința, cu nivelul de dovezi marcat la fiecare intrare. Un singur fișier HTML, offline.
 
-**Ultima actualizare:** 11 octombrie 2026
+**Versiune:** 1.0.0 · **Ultima actualizare:** 12 octombrie 2026
 
 **Live:** https://chiuta.github.io/Afrodisiace-fara-frontiere/
 
@@ -62,6 +62,7 @@ A single-file, offline Romanian-language compendium of 22 foods and herbs tradit
 
 ## Istoric / Changelog
 
+- 1.0.0 — 2026-10-12: versiunea și data ultimei actualizări sunt afișate în aplicație
 - **11 octombrie 2026** (runda 7) — secțiune nouă „Unde verifici mai departe” cu două linkuri către pagini de informare pentru public (NCCIH — Herbs at a Glance; NIH Office of Dietary Supplements — fișe informative), existența lor confirmată prin căutare web în octombrie 2026; textul precizează că fișele nu citează studii individuale. Nu s-a adăugat conținut medical nou; aplicația rămâne într-o singură limbă (RO) pentru că traducerea textelor despre dovezi/avertismente ar introduce conținut clinic neverificat. 0 erori, axe 0 violări la 1280×800 și 360×740.
 - **11 octombrie 2026** — filtru după nivelul de dovezi, „Resetează filtrele”, scurtătura `/`, temă întunecată, stil de tipărire; CSP cu hash de script în loc de `'unsafe-inline'`. Nu s-a adăugat conținut medical nou; textele intrărilor sunt neschimbate.
 - **11 octombrie 2026** — ordinea titlurilor corectată (a apărut un `h2` ascuns vizual „Alimente și plante” înaintea cardurilor, iar subtitlurile „Cum funcționează, de fapt?” sunt `h3` în loc de `h4`, fără schimbare vizibilă); axe-core: 0 violări la 1280×800 și 360×740; verificat că filtrul de căutare funcționează. Conținutul (nivelurile de dovezi) nu a fost modificat; aplicația nu are număr de versiune.

@@ -1,0 +1,37 @@
+{
+  "name": "Afrodisiace fără frontiere",
+  "short_name": "Afrodisiace",
+  "description": "Compendiu cultural și botanic despre alimente și plante asociate tradițional cu dorința, cu nivelul de dovezi marcat la fiecare intrare. Scop educațional, nu sfat medical. Un singur fișier HTML, offline.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "lang": "ro",
+  "background_color": "#f6eee0",
+  "theme_color": "#5c1a2e",
+  "categories": [
+    "lifestyle",
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "x_fff_pwa": 1
+}

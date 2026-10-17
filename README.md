@@ -50,7 +50,7 @@ Descarcă `index.html` și deschide-l în browser; nu are nevoie de internet.
 
 ## Licență
 
-Licența nu este încă declarată.
+MIT — vezi fișierul LICENSE.
 
 ## Autor
 
@@ -58,7 +58,7 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 
 ## English summary
 
-A single-file, offline Romanian-language compendium of 22 foods and herbs traditionally associated with desire. Each entry carries an evidence badge (tradition / preliminary / some small studies); none is presented as proven. Search ignores diacritics, the random picker uses a Fisher–Yates shuffle, and a medical-disclaimer banner is shown above the list. No storage, no network calls, no external resources. Educational only, not medical advice. Licence not yet declared.
+A single-file, offline Romanian-language compendium of 22 foods and herbs traditionally associated with desire. Each entry carries an evidence badge (tradition / preliminary / some small studies); none is presented as proven. Search ignores diacritics, the random picker uses a Fisher–Yates shuffle, and a medical-disclaimer banner is shown above the list. No storage, no network calls, no external resources. Educational only, not medical advice. Licence: MIT (see the LICENSE file).
 
 ## Istoric / Changelog
 

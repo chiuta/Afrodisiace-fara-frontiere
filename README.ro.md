@@ -60,9 +60,9 @@ MIT — vezi fișierul LICENSE.
 
 Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 
-## English summary
+## Rezumat
 
-A single-file, offline Romanian-language compendium of 22 foods and herbs traditionally associated with desire. Each entry carries an evidence badge (tradition / preliminary / some small studies); none is presented as proven. Search ignores diacritics, the random picker uses a Fisher–Yates shuffle, and a medical-disclaimer banner is shown above the list. No storage, no network calls, no external resources. Educational only, not medical advice. Licence: MIT (see the LICENSE file).
+Un compendiu într-un singur fișier, offline, în limba română, cu 22 de alimente și plante asociate în mod tradițional cu dorința. Fiecare intrare are o insignă de dovezi (tradiție / preliminar / unele studii mici); niciuna nu este prezentată ca dovedită. Căutarea ignoră diacriticele, selectorul aleatoriu folosește amestecarea Fisher–Yates, iar deasupra listei apare un banner cu avertisment medical. Fără stocare, fără apeluri de rețea, fără resurse externe. Doar în scop educativ, nu constituie sfat medical. Licență: MIT (vezi fișierul LICENSE).
 
 ## Istoric / Changelog
 

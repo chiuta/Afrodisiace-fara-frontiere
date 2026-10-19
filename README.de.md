@@ -10,7 +10,7 @@ Kulturelles und botanisches Kompendium über 22 Lebensmittel und Pflanzen, die t
 
 **Live:** https://chiuta.github.io/Afrodisiace-fara-frontiere/
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.de.png)
 
 ## Was es ist
 

@@ -10,7 +10,7 @@ Compendiu cultural și botanic despre 22 de alimente și plante asociate tradiț
 
 **Live:** https://chiuta.github.io/Afrodisiace-fara-frontiere/
 
-![Captura de ecran](screenshot.png)
+![Captura de ecran](screenshot.ro.png)
 
 ## Ce este
 

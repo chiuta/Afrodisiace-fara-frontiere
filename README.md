@@ -10,7 +10,7 @@ A cultural and botanical compendium of 22 foods and plants traditionally associa
 
 **Live:** https://chiuta.github.io/Afrodisiace-fara-frontiere/
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.en.png)
 
 ## What it is
 

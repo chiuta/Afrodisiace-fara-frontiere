@@ -10,7 +10,7 @@ Compendium culturel et botanique de 22 aliments et plantes traditionnellement as
 
 **En ligne :** https://chiuta.github.io/Afrodisiace-fara-frontiere/
 
-![Capture d'écran](screenshot.png)
+![Capture d'écran](screenshot.fr.png)
 
 ## De quoi s'agit-il
 

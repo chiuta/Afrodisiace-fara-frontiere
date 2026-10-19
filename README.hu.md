@@ -10,7 +10,7 @@ Kulturális és botanikai kompendium 22 olyan ételről és növényről, amelye
 
 **Élő verzió:** https://chiuta.github.io/Afrodisiace-fara-frontiere/
 
-![Képernyőkép](screenshot.png)
+![Képernyőkép](screenshot.hu.png)
 
 ## Mi ez
 

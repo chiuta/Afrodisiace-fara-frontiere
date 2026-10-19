@@ -10,7 +10,7 @@ Compêndio cultural e botânico sobre 22 alimentos e plantas tradicionalmente as
 
 **Online:** https://chiuta.github.io/Afrodisiace-fara-frontiere/
 
-![Captura de ecrã](screenshot.png)
+![Captura de ecrã](screenshot.pt.png)
 
 ## O que é
 

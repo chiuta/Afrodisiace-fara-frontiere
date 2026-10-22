@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 1.2.5 · **Dernière mise à jour :** 2026-10-23
+**Version :** 1.2.6 · **Dernière mise à jour :** 2026-10-23
 
 Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ Un compendium en roumain, en un seul fichier et hors ligne, de 22 aliments et pl
 
 ## Historique / Changelog
 
+- 1.2.6 — 2026-10-23 : Les clés de stockage portent désormais le préfixe de l'application (`afrodisiace-fara-frontiere.lang`) ; les données existantes (langue) sont migrées automatiquement au démarrage, et les anciennes copies `.fff.json` restent importables. fff-kit 1.2.0 : stockage sans préfixe corrigé
 - 1.2.4 — 2026-10-22 : fff-kit 1.1.4 : cibles tactiles et taille de texte minimale
 - 1.2.3 — 2026-10-22 : fff-kit 1.1.2 : PBKDF2 600 000 itérations, protection anti-clickjacking
 - 1.2.2 — 2026-10-22: Les tampons, les filtres et la légende utilisent un texte d'au moins 12 px; liens du pied de page d'au moins 24 px de haut.

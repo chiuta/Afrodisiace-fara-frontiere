@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · **Português** · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versão:** 1.2.5 · **Última atualização:** 2026-10-23
+**Versão:** 1.2.6 · **Última atualização:** 2026-10-23
 
 Idiomas da interface: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ Um compêndio em romeno, num único ficheiro e offline, sobre 22 alimentos e erv
 
 ## Histórico / Changelog
 
+- 1.2.6 — 2026-10-23: As chaves de armazenamento têm agora o prefixo da aplicação (`afrodisiace-fara-frontiere.lang`); os dados existentes (idioma) são migrados automaticamente no arranque e as cópias antigas `.fff.json` continuam a poder ser importadas. fff-kit 1.2.0: armazenamento sem prefixo corrigido
 - 1.2.4 — 2026-10-22: fff-kit 1.1.4: alvos de toque e tamanho mínimo do texto
 - 1.2.3 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iterações, proteção anti-clickjacking
 - 1.2.2 — 2026-10-22: Os selos, os filtros e a legenda usam texto de pelo menos 12 px; ligações do rodapé com pelo menos 24 px de altura.

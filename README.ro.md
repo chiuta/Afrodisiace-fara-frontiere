@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.2.5 · **Ultima actualizare:** 2026-10-23
+**Versiune:** 1.2.6 · **Ultima actualizare:** 2026-10-23
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ Un compendiu într-un singur fișier, offline, în limba română, cu 22 de alim
 
 ## Istoric / Changelog
 
+- 1.2.6 — 2026-10-23: Cheile de stocare au acum prefixul aplicației (`afrodisiace-fara-frontiere.lang`); datele existente (limba) se migrează automat la pornire, iar copiile vechi `.fff.json` se pot importa în continuare. fff-kit 1.2.0: stocare fără prefix remediată
 - 1.2.4 — 2026-10-22: fff-kit 1.1.4: ținte tactile și text minim
 - 1.2.3 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iterații, protecție anti-clickjacking
 - 1.2.2 — 2026-10-22: Ștampilele, filtrele și legenda folosesc text de minimum 12 px; linkuri din subsol de minimum 24 px înălțime.

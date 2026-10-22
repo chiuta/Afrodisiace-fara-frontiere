@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 1.2.5 · **Utolsó frissítés:** 2026-10-23
+**Verzió:** 1.2.6 · **Utolsó frissítés:** 2026-10-23
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ Egyfájlos, offline, román nyelvű kompendium 22, hagyományosan a vággyal ös
 
 ## Előzmények / Changelog
 
+- 1.2.6 — 2026-10-23: A tárolókulcsok mostantól az alkalmazás előtagját viselik (`afrodisiace-fara-frontiere.lang`); a meglévő adatok (nyelv) indításkor automatikusan átkerülnek, a régi `.fff.json` másolatok továbbra is importálhatók. fff-kit 1.2.0: előtag nélküli tárolás javítva
 - 1.2.4 — 2026-10-22: fff-kit 1.1.4: érintési célpontok és minimális szövegméret
 - 1.2.3 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iteráció, clickjacking elleni védelem
 - 1.2.2 — 2026-10-22: A bélyegek, a szűrők és a jelmagyarázat legalább 12 px-es szöveget használ; legalább 24 px magas lábléclinkek.

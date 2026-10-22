@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.2.1 · **Ultima actualizare:** 2026-10-19
+**Versiune:** 1.2.2 · **Ultima actualizare:** 2026-10-22
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 Un compendiu într-un singur fișier, offline, în limba română, cu 22 de alimente și plante asociate în mod tradițional cu dorința. Fiecare intrare are o insignă de dovezi (tradiție / preliminar / unele studii mici); niciuna nu este prezentată ca dovedită. Căutarea ignoră diacriticele, selectorul aleatoriu folosește amestecarea Fisher–Yates, iar deasupra listei apare un banner cu avertisment medical. Fără stocare, fără apeluri de rețea, fără resurse externe. Doar în scop educativ, nu constituie sfat medical. Licență: MIT (vezi fișierul LICENSE).
 
 ## Istoric / Changelog
+
+- 1.2.2 — 2026-10-22: Ștampilele, filtrele și legenda folosesc text de minimum 12 px; linkuri din subsol de minimum 24 px înălțime.
 
 - 1.1.0 — 2026-10-14: Copie de rezervă și etichetare date (fff-kit).
 - 1.0.0 — 2026-10-12: versiunea și data ultimei actualizări sunt afișate în aplicație

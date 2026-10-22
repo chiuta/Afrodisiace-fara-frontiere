@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.2.1 · **Last updated:** 2026-10-19
+**Version:** 1.2.2 · **Last updated:** 2026-10-22
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 A single-file, offline Romanian-language compendium of 22 foods and herbs traditionally associated with desire. Each entry carries an evidence badge (tradition / preliminary / some small studies); none is presented as proven. Search ignores diacritics, the random picker uses a Fisher–Yates shuffle, and a medical-disclaimer banner is shown above the list. No storage, no network calls, no external resources. Educational only, not medical advice. Licence: MIT (see the LICENSE file).
 
 ## History / Changelog
+
+- 1.2.2 — 2026-10-22: Stamps, filters and legend now use at least 12 px text; footer links of at least 24 px height.
 
 - 1.1.0 — 2026-10-14: Backup and data labelling (fff-kit).
 - 1.0.0 — 2026-10-12: the version and the date of the last update are shown in the app

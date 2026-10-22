@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 1.2.1 · **Dernière mise à jour :** 2026-10-19
+**Version :** 1.2.2 · **Dernière mise à jour :** 2026-10-22
 
 Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ Alexio — Alexandru-Ionuț Chiuță, contact : alexio@trom.tf
 Un compendium en roumain, en un seul fichier et hors ligne, de 22 aliments et plantes traditionnellement associés au désir. Chaque entrée porte un badge de niveau de preuve (tradition / préliminaire / quelques petites études) ; aucune n'est présentée comme prouvée. La recherche ignore les diacritiques, le tirage aléatoire utilise un mélange de Fisher–Yates et une bannière d'avertissement médical s'affiche au-dessus de la liste. Aucun stockage, aucun appel réseau, aucune ressource externe. À visée éducative uniquement, pas un conseil médical. Licence : MIT (voir le fichier LICENSE).
 
 ## Historique / Changelog
+
+- 1.2.2 — 2026-10-22: Les tampons, les filtres et la légende utilisent un texte d'au moins 12 px; liens du pied de page d'au moins 24 px de haut.
 
 - 1.1.0 — 2026-10-14 : sauvegarde et étiquetage des données (fff-kit).
 - 1.0.0 — 2026-10-12 : la version et la date de la dernière mise à jour sont affichées dans l'application

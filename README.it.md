@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versione:** 1.2.1 · **Ultimo aggiornamento:** 2026-10-19
+**Versione:** 1.2.2 · **Ultimo aggiornamento:** 2026-10-22
 
 Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ Alexio — Alexandru-Ionuț Chiuță, contatto: alexio@trom.tf
 Un compendio in lingua romena, in un unico file e offline, di 22 alimenti ed erbe tradizionalmente associati al desiderio. Ogni voce porta un badge del livello di evidenza (tradizione / preliminare / alcuni piccoli studi); nessuna è presentata come dimostrata. La ricerca ignora i diacritici, l'estrazione casuale usa un rimescolamento di Fisher–Yates e sopra l'elenco compare un banner di avvertenza medica. Nessuna memorizzazione, nessuna chiamata di rete, nessuna risorsa esterna. Solo a scopo educativo, non un consiglio medico. Licenza: MIT (vedi il file LICENSE).
 
 ## Cronologia / Changelog
+
+- 1.2.2 — 2026-10-22: I timbri, i filtri e la legenda usano testo di almeno 12 px; link a piè di pagina alti almeno 24 px.
 
 - 1.1.0 — 2026-10-14: copia di sicurezza ed etichettatura dei dati (fff-kit).
 - 1.0.0 — 2026-10-12: la versione e la data dell'ultimo aggiornamento sono mostrate nell'app

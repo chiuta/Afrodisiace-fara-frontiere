@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 1.2.1 · **Utolsó frissítés:** 2026-10-19
+**Verzió:** 1.2.2 · **Utolsó frissítés:** 2026-10-22
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ Alexio — Alexandru-Ionuț Chiuță, elérhetőség: alexio@trom.tf
 Egyfájlos, offline, román nyelvű kompendium 22, hagyományosan a vággyal összekapcsolt ételről és gyógynövényről. Minden bejegyzés bizonyítékszint-jelvényt visel (hagyomány / előzetes / néhány kis tanulmány); egyiket sem mutatják be bizonyítottként. A keresés figyelmen kívül hagyja az ékezeteket, a véletlenszerű választó Fisher–Yates-keverést használ, és a lista felett orvosi felelősségkizáró sáv látható. Nincs tárolás, nincsenek hálózati hívások, nincsenek külső erőforrások. Kizárólag oktatási célú, nem orvosi tanács. Licenc: MIT (lásd a LICENSE fájlt).
 
 ## Előzmények / Changelog
+
+- 1.2.2 — 2026-10-22: A bélyegek, a szűrők és a jelmagyarázat legalább 12 px-es szöveget használ; legalább 24 px magas lábléclinkek.
 
 - 1.1.0 — 2026-10-14: biztonsági mentés és adatcímkézés (fff-kit).
 - 1.0.0 — 2026-10-12: a verzió és az utolsó frissítés dátuma megjelenik az alkalmazásban

@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 1.2.1 · **Zuletzt aktualisiert:** 2026-10-19
+**Version:** 1.2.2 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ Alexio — Alexandru-Ionuț Chiuță, Kontakt: alexio@trom.tf
 Ein rumänischsprachiges Kompendium in einer einzigen Datei, offline, über 22 Lebensmittel und Kräuter, die traditionell mit Begehren verbunden werden. Jeder Eintrag trägt ein Evidenz-Abzeichen (Tradition / vorläufig / einige kleine Studien); keiner wird als bewiesen dargestellt. Die Suche ignoriert Diakritika, die Zufallsauswahl nutzt eine Fisher-Yates-Mischung, und über der Liste wird ein medizinischer Haftungsausschluss angezeigt. Kein Speicher, keine Netzwerkaufrufe, keine externen Ressourcen. Nur zu Bildungszwecken, keine medizinische Beratung. Lizenz: MIT (siehe Datei LICENSE).
 
 ## Verlauf / Changelog
+
+- 1.2.2 — 2026-10-22: Stempel, Filter und Legende verwenden Text von mindestens 12 px; Fußzeilenlinks von mindestens 24 px Höhe.
 
 - 1.1.0 — 2026-10-14: Datensicherung und Datenkennzeichnung (fff-kit).
 - 1.0.0 — 2026-10-12: Version und Datum der letzten Aktualisierung werden in der App angezeigt

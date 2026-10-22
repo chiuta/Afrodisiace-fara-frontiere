@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.2.2 · **Last updated:** 2026-10-22
+**Version:** 1.2.3 · **Last updated:** 2026-10-22
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ A single-file, offline Romanian-language compendium of 22 foods and herbs tradit
 
 ## History / Changelog
 
+- 1.2.3 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600,000 iterations, anti-clickjacking protection
 - 1.2.2 — 2026-10-22: Stamps, filters and legend now use at least 12 px text; footer links of at least 24 px height.
 
 - 1.1.0 — 2026-10-14: Backup and data labelling (fff-kit).

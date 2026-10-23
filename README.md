@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.2.6 · **Last updated:** 2026-10-23
+**Version:** 1.2.7 · **Last updated:** 2026-10-23
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ A single-file, offline Romanian-language compendium of 22 foods and herbs tradit
 
 ## History / Changelog
 
+- 1.2.7 — 2026-10-23: **fix**: a stored language such as `constructor` or `toString` is no longer accepted (it left `<html lang>` invalid and the language selector empty); only the 8 supported languages are
 - 1.2.6 — 2026-10-23: Storage keys now carry the app prefix (`afrodisiace-fara-frontiere.lang`); existing data (language) is migrated automatically at startup, and old `.fff.json` copies can still be imported. fff-kit 1.2.0: unprefixed-storage fixed
 - 1.2.4 — 2026-10-22: fff-kit 1.1.4: touch targets and minimum text size
 - 1.2.3 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600,000 iterations, anti-clickjacking protection

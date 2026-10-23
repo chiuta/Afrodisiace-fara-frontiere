@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 1.2.6 · **Zuletzt aktualisiert:** 2026-10-23
+**Version:** 1.2.7 · **Zuletzt aktualisiert:** 2026-10-23
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ Ein rumänischsprachiges Kompendium in einer einzigen Datei, offline, über 22 L
 
 ## Verlauf / Changelog
 
+- 1.2.7 — 2026-10-23: **fix**: a stored language such as `constructor` or `toString` is no longer accepted (it left `<html lang>` invalid and the language selector empty); only the 8 supported languages are
 - 1.2.6 — 2026-10-23: Die Speicherschlüssel tragen jetzt das App-Präfix (`afrodisiace-fara-frontiere.lang`); vorhandene Daten (Sprache) werden beim Start automatisch migriert, alte `.fff.json`-Kopien lassen sich weiterhin importieren. fff-kit 1.2.0: Speicher ohne Präfix behoben
 - 1.2.4 — 2026-10-22: fff-kit 1.1.4: Touch-Ziele und Mindestschriftgröße
 - 1.2.3 — 2026-10-22: fff-kit 1.1.2: PBKDF2 mit 600.000 Iterationen, Schutz vor Clickjacking

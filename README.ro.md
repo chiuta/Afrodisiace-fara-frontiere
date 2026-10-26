@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.2.7 · **Ultima actualizare:** 2026-10-26
+**Versiune:** 2.0.0 · **Ultima actualizare:** 2026-10-26
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,10 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 Un compendiu într-un singur fișier, offline, în limba română, cu 22 de alimente și plante asociate în mod tradițional cu dorința. Fiecare intrare are o insignă de dovezi (tradiție / preliminar / unele studii mici); niciuna nu este prezentată ca dovedită. Căutarea ignoră diacriticele, selectorul aleatoriu folosește amestecarea Fisher–Yates, iar deasupra listei apare un banner cu avertisment medical. Fără stocare, fără apeluri de rețea, fără resurse externe. Doar în scop educativ, nu constituie sfat medical. Licență: MIT (vezi fișierul LICENSE).
 
 ## Istoric / Changelog
+
+### 2.0.0 — 2026-10-26
+
+Atlas cultural: filtre pe tradiție/regiune (Americi, Europa și Mediterana, Orientul Mijlociu, Africa, Asia de Sud, Asia de Est, Eurasia), vedere „Atlas pe regiuni” cu nivelul de dovezi marcat vizibil la fiecare aliment și fișă detaliată (regiune, nivel de dovezi, tradiție și ce spune știința). Nu s-au adăugat afirmații noi despre efecte; avertismentele rămân. Test: `tests/atlas.test.mjs`.
 
 - 1.2.6 — 2026-10-23: Cheile de stocare au acum prefixul aplicației (`afrodisiace-fara-frontiere.lang`); datele existente (limba) se migrează automat la pornire, iar copiile vechi `.fff.json` se pot importa în continuare. fff-kit 1.2.0: stocare fără prefix remediată
 - 1.2.4 — 2026-10-22: fff-kit 1.1.4: ținte tactile și text minim

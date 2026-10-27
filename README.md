@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 2.0.1 · **Last updated:** 2026-10-27
+**Version:** 2.0.2 · **Last updated:** 2026-10-27
 
 **Status:** stable · **Offline:** complete (no network requests)
 
@@ -57,6 +57,11 @@ Download `index.html` and open it in a browser; it needs no internet.
 ## Safety warnings (2026-10-27)
 
 A new visible block "Specific safety warnings" (8 languages) follows the general note: cantharidin ("Spanish fly"; Karras et al., *Am J Emerg Med* 1996;14(5):478-483; Moed, Shwayder, Chang, *Arch Dermatol* 2001;137(10):1357-1360), yohimbine/yohimbe (NCCIH), toad-venom products (CDC, *MMWR* 1995;44(46):853-855), supplements with undeclared sildenafil/tadalafil (FDA public notifications; nitrate risk), plus an emergency line. It states that "traditional" does not mean safe and gives **no preparation instructions or doses** for any hazardous substance.
+
+### Source check (2026-10-27, 2.0.2)
+
+- **Confirmed**: Moed, Shwayder & Chang, "Cantharidin Revisited: A Blistering Defense of an Ancient Medicine", *Arch Dermatol* 2001;137(10):1357-1360 (JAMA Network page); CDC, MMWR 24 November 1995, vol. 44, no. 46, "Deaths Associated with a Purported Aphrodisiac - New York City, February 1993-May 1995" (CDC page: starts on p. 853); NCCIH "Yohimbe: Usefulness and Safety" (updated May 2025: associated with irregular heartbeat, blood-pressure problems, heart attacks and seizures; avoid with MAOIs and tricyclic antidepressants; restricted or banned in many countries; "not enough research" to say it helps for any condition); FDA "Public Notification: SexRx Contains Hidden Drug Ingredients" (title and address confirmed). Dates and addresses were added to the in-app texts.
+- **Not confirmed**: the end page `855` of the MMWR report (the CDC page shows only the start page) and Karras et al. 1996 (not re-checked in this round).
 
 ## License
 

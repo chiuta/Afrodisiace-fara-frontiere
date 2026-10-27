@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.0.1 · **Ultima actualizare:** 2026-10-27
+**Versiune:** 2.0.2 · **Ultima actualizare:** 2026-10-27
 
 **Stare:** stabil · **Offline:** complet (fără cereri de rețea)
 
@@ -57,6 +57,11 @@ Descarcă `index.html` și deschide-l în browser; nu are nevoie de internet.
 ## Avertismente de siguranță (2026-10-27)
 
 Un bloc vizibil nou, „Avertismente concrete de siguranță” (8 limbi), urmează notei generale: cantaridina („muscă spaniolă”; Karras și colab., *Am J Emerg Med* 1996;14(5):478-483; Moed, Shwayder, Chang, *Arch Dermatol* 2001;137(10):1357-1360), iohimbina/iohimbe (NCCIH), produse pe bază de venin de broască (CDC, *MMWR* 1995;44(46):853-855), suplimente cu sildenafil/tadalafil nedeclarate (notificări publice FDA; risc cu nitrații) și o linie de urgență. Precizează că „tradițional” nu înseamnă sigur și **nu dă rețete de preparare sau doze** pentru substanțe periculoase.
+
+### Verificarea surselor (2026-10-27, 2.0.2)
+
+- **Confirmate**: Moed, Shwayder & Chang, „Cantharidin Revisited: A Blistering Defense of an Ancient Medicine”, *Arch Dermatol* 2001;137(10):1357-1360 (pagina JAMA Network); CDC, MMWR 24 noiembrie 1995, vol. 44, nr. 46, „Deaths Associated with a Purported Aphrodisiac - New York City, February 1993-May 1995” (pagina CDC: începe la p. 853); NCCIH „Yohimbe: Usefulness and Safety” (actualizată mai 2025: asociată cu aritmie, probleme de tensiune, infarct și convulsii; de evitat cu IMAO și antidepresive triciclice; restricționată sau interzisă în multe țări; „not enough research” ca să se spună că ajută în vreo afecțiune); FDA „Public Notification: SexRx Contains Hidden Drug Ingredients” (titlu și adresă confirmate). Datele și adresele au fost adăugate în textele din aplicație.
+- **Neconfirmate**: pagina finală `855` a raportului MMWR (pagina CDC arată doar pagina de început) și Karras et al. 1996 (nereverificat în această tură).
 
 ## Licență
 

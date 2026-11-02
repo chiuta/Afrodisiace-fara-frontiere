@@ -13,8 +13,8 @@
   "storageKeys": [
     "afrodisiace-fara-frontiere.lang"
   ],
-  "sizeBytes": 329550,
-  "sha256": "08c6ae44c63366fae824037cc47a44e2c4757355d22555066dbe0098f9e2529e",
+  "sizeBytes": 469984,
+  "sha256": "95f2abf62cb5bd7050891d5b64235532eef4a650f2693a36f0f931dbfba63515",
   "csp": {
     "present": true,
     "directives": {
@@ -52,7 +52,11 @@
       "store",
       "dialog",
       "label",
-      "bundle"
+      "bundle",
+      "qr",
+      "p2p",
+      "sync",
+      "history"
     ]
   },
   "kit": {
@@ -62,7 +66,11 @@
       "store",
       "dialog",
       "label",
-      "bundle"
+      "bundle",
+      "qr",
+      "p2p",
+      "sync",
+      "history"
     ]
   },
   "selfSerializing": false

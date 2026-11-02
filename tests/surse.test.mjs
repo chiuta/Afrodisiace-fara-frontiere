@@ -7,5 +7,5 @@ t('NCCIH Yohimbe cu adresă în 8 limbi', n(/nccih\.nih\.gov\/health\/yohimbe, p
 t('MMWR cu dată în 8 limbi', n(/MMWR 1995;44\(46\):853–855 \(1995-11-24\)/g) >= 8);
 t('FDA SexRx cu adresă în 8 limbi', n(/public-notification-sexrx-contains-hidden-drug-ingredients\)/g) >= 8);
 t('fără doze/rețete (cuvinte-cheie)', !/\b\d+ ?(mg|ml|g)\b[^<]{0,40}(cantarid|yohimb|iohimb)/i.test(h));
-t('versiune 2.0.2', JSON.parse(fs.readFileSync(path.join(HERE, '..', 'app.json'), 'utf8')).version === '2.0.2');
+t('versiune 2.0.3', JSON.parse(fs.readFileSync(path.join(HERE, '..', 'app.json'), 'utf8')).version === '2.0.3');
 console.log(`\n${ok} reușite, ${bad} eșuate`); process.exit(bad ? 1 : 0);

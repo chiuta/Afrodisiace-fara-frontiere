@@ -2,8 +2,8 @@
   "schema": 1,
   "slug": "afrodisiace-fara-frontiere",
   "name": "Afrodisiace fără frontiere",
-  "version": "2.0.4",
-  "updated": "2026-11-07",
+  "version": "2.0.5",
+  "updated": "2026-11-08",
   "description": "Compendiu cultural și botanic despre alimente și plante asociate tradițional cu dorința, cu nivelul de dovezi marcat la fiecare intrare. Scop educațional, nu sfat medical. Un singur fișier HTML, offline.",
   "egress": [],
   "permissions": [
@@ -13,8 +13,8 @@
   "storageKeys": [
     "afrodisiace-fara-frontiere.lang"
   ],
-  "sizeBytes": 471732,
-  "sha256": "424bad194fac31aa05a3147845da7c2861ac943fe20448b9c5129ba86a26d66b",
+  "sizeBytes": 485417,
+  "sha256": "bbaeb799d671c65fecb82d44762b9754ea94e214decdd2600b863ec0f7b28ed3",
   "csp": {
     "present": true,
     "directives": {
@@ -51,6 +51,7 @@
       "core",
       "store",
       "dialog",
+      "exit",
       "label",
       "bundle",
       "qr",
@@ -60,11 +61,12 @@
     ]
   },
   "kit": {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "modules": [
       "core",
       "store",
       "dialog",
+      "exit",
       "label",
       "bundle",
       "qr",

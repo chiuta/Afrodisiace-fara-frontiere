@@ -8,18 +8,19 @@
   "egress": [],
   "permissions": [
     "serviceWorker",
-    "localStorage"
+    "localStorage",
+    "WebGL"
   ],
   "storageKeys": [
     "afrodisiace-fara-frontiere.lang"
   ],
-  "sizeBytes": 524236,
-  "sha256": "0eb2401ec52c14120f0a0c9c8f45f59b34c1e56da0bb8cd44d6747cd8d6bf2d5",
+  "sizeBytes": 576247,
+  "sha256": "919637c89b43795242daa67e96a84d5c1272e496f2369fdb7e7d4b7bf1a2ae95",
   "csp": {
     "present": true,
     "directives": {
       "default-src": "'none'",
-      "script-src": "sha256×3",
+      "script-src": "sha256×4",
       "style-src": "'unsafe-inline'",
       "img-src": "'self' data:",
       "base-uri": "'none'",
